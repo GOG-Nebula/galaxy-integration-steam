@@ -17,7 +17,7 @@ This project is in open beta. It is not completely bulletproof, but it has been 
     <br>`%localappdata%\GOG.com\Galaxy\plugins\installed\steam_ca27391f-2675-49b1-92c0-896d43afa4f8`
   * MacOS:
     <br>`~/Library/Application Support/GOG.com/Galaxy/plugins/installed/steam_ca27391f-2675-49b1-92c0-896d43afa4f8`
-* If the file does not exist, create it. If it does, delete everything inside it. 
+* If the folder does not exist, create it. If it does, delete everything inside it. 
 * Extract the zip release so all the contents are in that file. 
 * Start GOG Galaxy. 
 
@@ -46,7 +46,7 @@ You will need Python 3.7, and at least Python 3.7.9. If on Windows, you need to 
 
 ### Environment Setup (MacOS)
 * Python 3.7.9 is available as a package at [Python 3.7.9 32-bit][Python379]. However, if you have another version of python installed, it is highly recommended you get `pyenv` and install python 3.7 through there. It's likely to be a newer version of python 3.7. 
-  - The easiest way to get pyenv is through `Homebrew`. This can be installed from [Homebrew — The Missing Package Manager for macOS (or Linux)](https://brew.sh/)<br/> 
+  - The easiest way to get pyenv is through `Homebrew`. This can be installed from [Homebrew â€” The Missing Package Manager for macOS (or Linux)](https://brew.sh/)<br/> 
     Then, from terminal, you can run `brew install pyenv`<br/>
 	To actually get python 3.7.9, run `pyenv install 3.7.9`. You can also use a newer version of 3.7, like 3.7.16 <br/>
 	Finally, tell this project to use python 3.7.x for all python commands from this folder. <br/>
